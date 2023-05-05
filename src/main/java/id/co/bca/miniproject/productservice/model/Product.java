@@ -10,6 +10,7 @@ import lombok.Setter;
 @Table(name =  "product")
 @Getter
 @Setter
+@JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
 public class Product {
 
     @Id
